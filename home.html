@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Akademi Kreatif Online</title>
+    <link rel="icon" type="image/x-icon" href="images/logowebUTS.jpg">
+    <link rel="stylesheet" href="projekUTS.css">
+</head>
+<body>
+    
+    <header class="top">
+        <a class="brand" href="home.html"><i>Akademi</i>Kreatif</a>
+        <nav aria-label="Navigasi utama">
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="detailkursus.html">Detail Kursus</a>
+            <a href="testimoni.html">Testimoni & Pengajar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page">
+            <div class="header-banner">
+                <span class="logo-teks">KREASINYA PAS, KARYANYA BERKELAS!</span>
+                <p>Langkah interaktif yang merangkai jemari merajut, goresan kuas melukis, hingga imajinasi desain grafis untuk mewujudkan ide impianmu!</p>
+            </div>
+
+            <h1>Kursus Online Menjahit, Merajut, Melukis & Desain Grafis</h1>
+            <p class="deskripsi-utama">
+                Panduan seni dan desain yang disusun penuh cinta, dari rajutan benang hingga piksel digital, untuk menemani perjalanan kreatifmu hari ini. Ubah hobi kreatifmu menjadi karya bernilai tinggi bersama kami! Nikmati pengalaman belajar yang fleksibel, menyenangkan, dan dibimbing langsung oleh instruktur profesional.
+            </p>
+
+            <h2>Pilihan Galeri Kursus</h2>
+            <div class="produk-gambar">
+                <div class="item-foto">
+                    <img src="images/menjahit.jpg" alt="Kursus Menjahit">
+                    <p>Menjahit Busana</p>
+                </div>
+                <div class="item-foto">
+                    <img src="images/merajut.jpg" alt="Kursus Merajut">
+                    <p>Merajut Aksesoris</p>
+                </div>
+                <div class="item-foto">
+                    <img src="images/melukis.jpg" alt="Kursus Melukis">
+                    <p>Menggambar & Melukis</p>
+                </div>
+                <div class="item-foto">
+                    <img src="images/desain grafis.jpg" alt="Kursus Desain Grafis">
+                    <p>Desain Grafis & Edit Video</p>
+                </div>
+            </div>
+
+            <h2>Daftar Paket Kelas & Kursus</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nomor</th>
+                        <th>Nama Kelas</th>
+                        <th>Fasilitas & Modul</th>
+                        <th>Harga Kelas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kelas Dasar Merajut</td>
+                        <td>Modul PDF, Pola Rajut Pemula, & Akses Video Selamanya</td>
+                        <td>Rp 150.000 / peserta</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kursus Menjahit Pola Busana</td>
+                        <td>Teknik Potong Kain, Menjahit Dasar, & Konsultasi Online</td>
+                        <td>Rp 250.000 / peserta</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Masterclass Melukis Kanvas</td>
+                        <td>Panduan Campuran Warna Cat Akrilik & Teknik Gradasi</td>
+                        <td>Rp 200.000 / peserta</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Kursus Menggambar Sketsa & Ilustrasi</td>
+                        <td>Anatomi Dasar, Perspektif, & Latihan Shading Objek</td>
+                        <td>Rp 175.000 / peserta</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bootcamp Desain Grafis Digital</td>
+                        <td>Menguasai Software Desain, Vektor, & Layout Profesional</td>
+                        <td>Rp 300.000 / peserta</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Paket Bundling Kreatif (Semua Kelas)</td>
+                        <td>Akses Penuh ke Seluruh Kursus Seni Tradisional & Digital</td>
+                        <td>Rp 850.000 / paket</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Alur Pendaftaran Kelas</h2>
+            <ol class="kotak-informasi">
+                <li>Pilih jenis paket kelas online yang ingin kamu ikuti dari daftar tabel di atas.</li>
+                <li>Isi formulir pemesanan peserta secara lengkap pada bagian bawah halaman ini.</li>
+                <li>Lakukan pembayaran biaya kursus melalui metode QRIS, Transfer Bank, atau Cash.</li>
+                <li>Tunggu konfirmasi aktivasi akun dan pengiriman modul akses materi dari tim kami.</li>
+                <li>Masuk ke kelas online dan mulailah belajar bersama mentor profesional!</li>
+            </ol>
+
+            <div class="form" id="pesan">
+                <h2>Form Pemesanan Kelas</h2>
+                <form id="formPendaftaran" action="#" method="post">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap kamu" required>
+
+                    <label for="wa">Nomor WhatsApp</label>
+                    <input type="tel" id="wa" name="wa" placeholder="08xxxxxxxxxx" required>
+
+                    <label for="paket">Pilihan Paket Kelas</label>
+                    <select id="paket" name="paket" required>
+                        <option value="">-- Pilih Paket Kelas --</option>
+                        <option value="Merajut">Kelas Dasar Merajut</option>
+                        <option value="Menjahit">Kursus Menjahit Pola Busana</option>
+                        <option value="Melukis">Masterclass Melukis Kanvas</option>
+                        <option value="Menggambar">Kursus Menggambar Sketsa & Ilustrasi</option>
+                        <option value="Desain">Bootcamp Desain Grafis Digital</option>
+                        <option value="Bundling">Paket Bundling Kreatif (Semua Kelas)</option>
+                    </select>
+
+                    <p class="judul-radio">Metode Pembayaran</p>
+                    <input type="radio" id="cash" name="bayar" value="Cash" checked>
+                    <label for="cash" style="display:inline; font-weight:normal;">Cash</label>
+                    
+                    <input type="radio" id="qris" name="bayar" value="QRIS">
+                    <label for="qris" style="display:inline; font-weight:normal; margin-left: 10px;">QRIS</label>
+                    
+                    <input type="radio" id="transfer" name="bayar" value="Transfer Bank">
+                    <label for="transfer" style="display:inline; font-weight:normal; margin-left: 10px;">Transfer Bank</label>
+
+                    <label for="catatan">Catatan Tambahan</label>
+                    <textarea id="catatan" name="catatan" rows="3" placeholder="Contoh: Sesi kelas malam"></textarea>
+
+                    <input type="submit" value="Kirim Pesanan Kelas">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="kontak">
+            <h2>Contact US!</h2>
+            <div class="kolom-footer">
+                <p>Platform pembelajaran kursus online interaktif seni & desain digital.</p>
+                <ul>
+                    <li><b>WhatsApp:</b> 0812-3456-7890</li>
+                    <li><b>Email:</b> info@akademikreatif.id</li>
+                    <li><b>Instagram:</b> @akademi_kreatif</li>
+                    <li><b>YouTube:</b> Akademi Kreatif Official</li>
+                    <li><b>TikTok:</b> @akademikreatif_id</li>
+                </ul>
+            </div>
+        </div>
+        <p class="hak-cipta">&copy; 2026 Akademi Kreatif Online. All Rights Reserved.</p>
+    </footer>
+
+    <script src="projekUTS.js"></script>
+</body>
+</html>
